@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(196, 148, 244);
+}
+.spril{
+    color:rgb(56, 25, 86);
+}
+.btn{
+    background-color: rgb(56, 25, 86);
+    color: white;
+    width: 100px;
+    padding: 12px;
+
+}
+.costum{
+    background-color:rgb(238, 225, 249);
+    color:  rgb(56, 25, 86);
+    font-weight: bold;
+}
+.btn .costum:hover{
+    background-color:rgb(196, 148, 244) ;
+    color: white;
+}
+.saisir{
+    background-color: rgb(238, 225, 249) ;
+    width: 400px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(196, 148, 244);
+    color: white;
+
+
+}
+.vert{
+background-color: rgb(56, 25, 86);
+border-radius: 10px;
+/* height: 300px; */
+
+}
+.tip{
+    color: white;
+}
+.person{
+    color: rgb(97, 72, 97)
+}
+.dollar{
+    color:rgb(196, 148, 244) ;
+}
+.resert{
+    background-color: rgb(196, 148, 244);
+    width: 350px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
