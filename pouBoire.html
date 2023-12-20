@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
  <title>pourBoir</title>
     <link rel="stylesheet" href="pourBoir.css">
-    <script src="pourBoir.js"></script>
+    <!-- <script defer src="pourBoir.js"></script> -->
+   
 </head>
 <body>
     <div class="container">
@@ -20,7 +21,7 @@
                 <!--https://www.youtube.com/watch?v=6eFwtaZf6zc  -->
                 <p class="ms-4">Bill</p>
                 <!-- input -->
-                <input type="number" id="Bill-input" class="saisir ms-4" placeholder="$">
+                <input type="text" id="input" class="saisir ms-4" placeholder="$">
                 <!-- les pourcentage -->
                  <p class="ms-4 mt-3">Select Tip %</p>
                  <div class=" d-flex justify-content-around mb-2">
@@ -33,7 +34,8 @@
                  <div class="d-flex justify-content-around">
                     <button class="btn" onclick="button4()" id="btn4 ">25%</button>
                     <button class="btn" onclick="button5()" id="btn5">50%</button>
-                    <button class=" btn  costum" id="btn6">Costum</button>
+                    <input type="number" id="btn6" class="btn costum" placeholder="Costum">
+                   
                  </div> 
                  <!-- input pepople -->
                  <p class="ms-4 mt-3">Number of People</p>
@@ -46,19 +48,20 @@
                <div class="vert m-4 p-3">
                 <div class="d-flex justify-content-around pt-5 ">
                     <p class="tip">Tip Amount <br>  <br><span class="person">/person</span> </p>
-                    <p class="dollar fw-bold" id="Amount">$4.12</span>
+                    <p class="dollar fw-bold" id="Amount">$0.00</span>
                 </div>
                 <div class="d-flex justify-content-around pt-5 ">
                     <p class="tip">Total <br> <br> <span class="person">/person</span> </p>
-                    <p class="dollar fw-bold" id="Total">$1.50</span>
+                    <p class="dollar fw-bold" id="Total">$0.00</span>
                 </div>
-                <button class="resert d-flex justify-content-center m-auto mt-2 fw-bold ">Resert</button>
+                <button class="resert d-flex justify-content-center m-auto mt-2 fw-bold "onclick="history.go(0) ">Resert</button>
                 
                </div>
             </div>
         </div>
     </div>
-
+    <!-- <script src="calul.js"></script> -->
+     <script src="pourBoir.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
