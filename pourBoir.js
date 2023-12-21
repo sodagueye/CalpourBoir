@@ -18,9 +18,9 @@ resultat.innerText='0.00'
 //     item.style.backgroundColor = 'yellow';
 // });
 function calculatrice(){
-    if(prix.value <= 0 || nbrePers.value <= 0){
-                   alert("saisir une nombre positif")
-            }
+    // if(prix.value <= 0 || nbrePers.value <= 0){
+    //                alert("saisir une nombre positif")
+    //         }
              
 btn1.addEventListener('click',()=>{
     let prix1=(prix.value*15)/(100* nbrePers.value);
