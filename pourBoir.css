@@ -55,3 +55,14 @@ border-radius: 10px;
     border-radius: 10px;
     border: none;
 }
+@media only screen and (max-width: 600px) {
+    .saisir {width: 350px;
+    }
+    .resert{
+        width: 300px;
+
+    }
+
+    
+
+}
